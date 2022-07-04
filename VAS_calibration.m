@@ -15,7 +15,7 @@
 clear all % clearing all old data
 
 % Development flag 1. Set to 1 when developing the task, will optimize stim size for laptop, not hide cursor
-vars.control.devFlag  = 1; 
+vars.control.devFlag  = 0; 
 
 addpath helperFunctions 
 VAS_loadParams;
